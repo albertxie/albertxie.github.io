@@ -1,18 +1,18 @@
 import './App.css';
 
 function App() {
+  // Homepage
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className='App-h1'>Hello!</h1>
-        <table>
-          <tr>
-            <th><a className='App-link' href="https://www.linkedin.com/in/albertxie/">Linkedin</a></th>
-            <th><a className='App-link' href="https://github.com/albertxie">Github</a></th>
-            <th><a className='App-link' href="https://twitter.com/albertxiee">Twitter</a></th>
-          </tr>
-        </table>
-      </header>
+    <div className='content'>
+      <h1 className='title'>Hello!</h1>
+      <p>My name is Albert, I am a sofware engineer at <a href='#'>Instacart</a>, welcome to my page! </p>
+      <a href='/about'>about</a>
+      <br></br>
+      <a href='/blog'>blog</a>
+      <br></br>
+      <a href='https://www.github.com/albertxie'>github</a>
+      <br></br>
+      <a href='https://www.linkedin.com/in/albertxie/'>linkedin</a>
     </div>
   );
 }
