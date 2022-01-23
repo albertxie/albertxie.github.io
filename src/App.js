@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='content'>
       <h1 className='title'>Hello!</h1>
-      <p>My name is Albert, I am a sofware engineer at <a href='#'>Instacart</a>, welcome to my page! </p>
+      <p>My name is Albert, I am a sofware engineer at <a href='https://www.instacart.ca/'>Instacart</a>, welcome to my page! </p>
       <a href='/about'>about</a>
       <br></br>
       <a href='/blog'>blog</a>
