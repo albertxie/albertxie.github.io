@@ -8,6 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import About from "./routes/about";
+import Blog from "./routes/blog";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
+      <Route path="blog" element={<Blog />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
