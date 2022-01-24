@@ -6,7 +6,6 @@ body {
   --color-foreground: #000000;
   --color-foreground-dim: darkgray;
 
-  /* margin: 0; */
   font-size: calc(10px + 2vmin);
   background-color: var(--color-background);
   color: var(--color-foreground);
@@ -31,18 +30,15 @@ a {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
 .title {
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 800;
 }
 
 .subtitle {
-  font-size: 0.75em;
-  margin-top: -50px;
   color: var(--color-foreground-dim);
 }
