@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   HashRouter,
-  NavLink,
   Routes,
   Route
 } from "react-router-dom";
