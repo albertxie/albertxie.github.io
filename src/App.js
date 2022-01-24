@@ -1,4 +1,5 @@
 import './App.css';
+import { NavLink } from "react-router-dom";
 
 function App() {
   // Homepage
@@ -6,9 +7,7 @@ function App() {
     <div className='content'>
       <h1 className='title'>Hello!</h1>
       <p>My name is Albert, I am a software engineer at <a href='https://www.instacart.ca/'>Instacart</a>, welcome to my page! </p>
-      <a href='/about'>about</a>
-      <br></br>
-      <a href='/blog'>blog</a>
+      <NavLink to='/about'>about</NavLink>
       <br></br>
       <a href='https://www.github.com/albertxie'>github</a>
       <br></br>
