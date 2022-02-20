@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className='content'>
         <h1 className='title'>About</h1>
-        <p className="subtitle">All about me</p>
+        <p className="subtitle">A bunch of gibberish</p>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
         gravida suscipit, metus dui bibendum est, eget rhoncus nibh
